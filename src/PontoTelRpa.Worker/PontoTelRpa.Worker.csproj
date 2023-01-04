@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-BuyIngressRpa-13D75C7E-DEE0-4887-A01D-3B285445C223</UserSecretsId>
+    <ApplicationIcon>rpaIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="rpaIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PontoTelRpa.Domain\PontoTelRpa.Domain\PontoTelRpa.Domain.csproj" />
+    <ProjectReference Include="..\PontoTelRpa.Navigation\PontoTelRpa.Infra\PontoTelRpa.Infra.csproj" />
+    <ProjectReference Include="..\PontoTelRpa.Navigation\PontoTelRpa.Navigation\PontoTelRpa.Navigation.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appConfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="processLog.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

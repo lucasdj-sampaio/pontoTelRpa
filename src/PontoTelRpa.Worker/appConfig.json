@@ -1,0 +1,25 @@
+{
+  //Chrome or Firefox
+  "PreferenceDriver": "Chrome",
+
+  "Credentials": [
+    {
+      "User": "",
+      "Password": "",
+      "Url": "https://bateponto.pontotel.com.br/#/",
+      "NavigationType": "ShotPoint"
+    },
+    {
+      "User": "",
+      "Password": "",
+      "Url": "https://gestao.pontotel.com.br/#/cognito/login",
+      "NavigationType": "CorrectPointLeaf"
+    }
+  ],
+
+  "StartJourney": "09:00",
+  "LimitToLunch": "17:00",
+  "EndJourney": "18:00",
+  "ToleranceMinute": "5",
+  "LogFilePath": ""
+}

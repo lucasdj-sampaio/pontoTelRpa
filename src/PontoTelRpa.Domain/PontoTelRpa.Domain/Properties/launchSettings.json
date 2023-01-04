@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PontoTelRpa.Worker": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\DEV\\pontoTelRpa\\src\\PontoTelRpa.Worker"
+    }
+  }
+}

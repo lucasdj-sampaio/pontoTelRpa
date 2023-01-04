@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "PontoTelRpaProject: {
+      "commandName": "Project",
+      "workingDirectory": "C:\\DEV\\pontoTelRpa\\src\\PontoTelRpa.Worker",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true
+    }
+  }
+}
